@@ -7,3 +7,6 @@ package-lock.json
 .LSOverride
 .Spotlight-V100
 .Trashes
+
+frontend/package-lock.json
+frontend/yarn.lock
