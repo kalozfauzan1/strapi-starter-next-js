@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "api:dev": "cd backend && npm run develop",
+    "client:dev": "cd frontend && yarn dev",
+    "dev": "concurrently \"yarn api:dev\" \"yarn client:dev\"",
     "prepare": "husky install"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "concurrently": "^6.2.0",
     "husky": "^7.0.1"
   }
 }
