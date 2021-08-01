@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kjkjs",
+      "handler": "kjkj.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kjkjs/count",
+      "handler": "kjkj.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kjkjs/:id",
+      "handler": "kjkj.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/kjkjs",
+      "handler": "kjkj.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kjkjs/:id",
+      "handler": "kjkj.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kjkjs/:id",
+      "handler": "kjkj.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

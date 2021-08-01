@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sections_cards",
+  "info": {
+    "name": "Card",
+    "icon": "ankh"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    }
+  }
+}

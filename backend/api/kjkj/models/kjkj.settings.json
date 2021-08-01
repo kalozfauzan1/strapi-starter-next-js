@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kjkjs",
+  "info": {
+    "name": "kjkj"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "test": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.hero"
+      ]
+    }
+  }
+}
